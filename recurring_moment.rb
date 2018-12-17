@@ -47,3 +47,7 @@ class RecurringMoment
     return false
   end
 end
+
+### Runtime could be constant if we just used math instead of bruteforcing the check, 
+# there exist formulas that convert dates into easier to work with numbers, 
+# then checking would just require manipulating the interval and period to see if the date is a match
